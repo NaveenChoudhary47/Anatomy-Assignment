@@ -1,0 +1,195 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+\setmarginsrb{1.25 cm}{1.25 cm}{1.25 cm}{1.25 cm}{0.25 cm}{0.75 cm}{0.25 cm}{0.75 cm}
+
+\title{SUMMARY OF CHAPTER 1}
+\author{21111034}
+\date{16 09  2022}
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\theauthor}
+\lhead{\thetitle}
+\cfoot{\thepage}
+
+\begin{document}
+\begin{titlepage}
+\centering
+    \includegraphics[scale = 1]{logo.jpg}\\[1.0 cm]
+    \textsc{\LARGE National Institute Of Technology \newline\\\\ RAIPUR}\\[1.5 CM]
+   
+\textsc{\Large ASSIGNMENT 01}\\[0.5 cm] % Course Code
+\rule{\linewidth}{0.4 mm} \\[0.4 cm]
+{ \huge \bfseries \thetitle}\\
+\rule{\linewidth}{0.4 mm} \\[1.5 cm]
+
+\begin{minipage}{0.6\textwidth}
+\begin{flushleft} \large
+\emph{Submitted To:}\\
+Saurabh Gupta\\
+            Department Of Basic Biomedical Engineering\\
+\end{flushleft}
+\end{minipage}~
+\begin{minipage}{0.4\textwidth}
+           
+\begin{flushright} \large
+\emph{Submitted By :}\\
+Naveen Chaudhary\\
+            21111034\\
+\end{flushright}
+       
+\end{minipage}\\[2 cm]
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+\section{Anatomy and Physiology}
+\textbf{Anatomy} The study of body structures and their interactions.\newline
+\textbf{Dissection} the method of carefully separating body parts to examine the relationships between them.\newline
+\textbf{Physiology} Physiology is the study of bodily processes, or how the body's components function.
+
+\section{Level of Structural Organisation and Body Systems}
+There are six levels of Organisations from smallest to largest which are as follows:
+\begin{enumerate}
+    \item \textbf{Chemical level:} This very basic level includes atoms, the smallest units of matter that participate in chemical reactions, and
+molecules, two or more atoms joined together.
+
+    \item \textbf{Cellular level:} Cells are the basic structural and functional living units of an organism and are the smallest living units in the human body.
+
+    \item \textbf{Tissue level:} Tissues are groups of cells and the materials surrounding them that work together to perform a particular function.
+   
+    \item \textbf{Organ level:} Organs are composed of two or more different types of tissues; they have specific functions and usually have recognizable shapes.
+   
+    \item \textbf{System level:} Systems consist of related organs that have a common function.
+
+    \item \textbf{Organismal level:} All the systems working together constitute an organism.
+\end{enumerate}
+\section{Characteristics of the Living Human Organisms}
+There are 6 life processes of human body:
+\begin{enumerate}
+    \item \textbf{Metabolism} the sum of all chemical processes that occur in the body.There are two stages to metabolism, the first of which is catabolism, or the breakdown of complex chemical compounds into simpler ones. The second process is anabolism, which entails the synthesis of complex chemical molecules from simpler, smaller building blocks.
+.
+    \item \textbf{Responsiveness}  the ability to observe and respond to changes.
+   
+    \item \textbf{Movement:}  It’s the movement of the whole body, individual organs, single cells and even small structures inside cells.
+   
+    \item \textbf{Growth:} The enlargement of already existing cells, as well as occasionally several cells and tissues, is what causes the organism to get larger.
+   
+    \item \textbf{Differentiation:} It is the transformation of a cell from an unsophisticated state to one that is. Stem cells are a type of precursor cell that can proliferate and produce cells that go through differentiation.
+   
+    \item \textbf{Reproduction:} It refers either the arrangement of new cells for tissue growth, repair or replacement-ment, are the production of a new individual..
+   
+\end{enumerate}
+\section{Homeostasis}
+\textbf{The body's cells engage in a process known as homeostasis to keep the physiological condition within a constrained range that is compatible with life. Negative feedback loops and positive feedback loops, which occur considerably less frequently, control homeostasis.}
+
+\item\textbf{Body Fluids:}Dilute, watery solutions containing dissolved chemicals inside or outside of
+the cell.
+\newline– Intracellular Fluid (ICF) is the fluid within cells
+\newline– Extracellular Fluid (ECF) is the fluid outside cells
+\newline– Interstitial fluid is ECF between cells and tissues.
+\item\textbf{Some important body fluids:}
+\newline– Blood Plasma is the ECF within blood vessels.
+\newline– Lymph is the ECF within lymphatic vessels.
+\newline– Cerebrospinal fluid (CSF) is the ECF surrounding the brain and
+spinal cord.
+\newline– Synovial fluid is the ECF in joints.
+\newline– Aqueous humor is the ECF in eyes.
+
+\textbf{Control of homeostasis is constantly being challenged by:
+}
+\item\textbf{Physical insults:}: intense heat or lack of oxygen
+\newline• Changes in the internal environment: a drop in blood glucose due to lack
+of food
+\item\textbf{Physiological stress:}demands of work or school
+\newline– Intense disruptions in the long run can result in disease (poisoning
+or severe infections) or death.\newline
+– Mild disruptions can be reimpose quickly with minimal to no harm
+done via Feedback Systems.
+
+\section{Feedback Systems:}
+\item\textbf{* Three basic components:
+}
+\item\textbf{Receptor:}
+
+\newline– A bodily component that communicates feedback to the control centre by tracking changes in a homeostasis-controlled condition (body temperature).
+A neuron can activate in reaction to temperature changes because the skin and brain both have specialised nerve terminals that serve as temperature receptors.
+
+\item\textbf{Control Centre:}
+\newline– establishes the range of values to be maintained; typically, the brain or neural tissue does this.
+\newline– Analyse input received from receptors and generates an output
+command.
+\newline∗ Output involves nerve impulses, hormones, or other chemical
+agents.
+\newline∗ Example: Brain acts as a control center receiving nerve impulses
+from skin temperature receptors.
+\item\textbf{Effectors:}
+\newline– Receives output from the control center and produces a response or
+effect that changes the condition:
+\newline∗ Example: skeletal muscle or sweat
+\subsection{Negative Feedback Loop:}
+\newline• Body senses a change and activates mechanisms to reverse the change.
+\newline– Physiologic Example:
+\newline∗ Blood Pressure regulation.
+\newline· External or internal stimulus increases BP.
+\newline· Baroreceptors (receptors) detect higher BP and send a nerve
+impulse (input) to the brain (control center).
+\newline· Brain sends nerve impulses (output) to the heart (effector organ) causing it to slow which causes BP to drop (homeostasis
+is restored.)
+\newline• Thermoregulation - HOT
+\newline– Receptors in skin or brain sense increase in blood temperature.
+\newline∗ Send neural input to brain.
+\newline– Control center in brain sends neural output to effector organs.
+\newline– Blood vessels in the skin dilate and sweat glands initiate sweating.
+\newline∗ Blood temperature should decrease.
+\newline• Thermoregulation - COLD
+\newline– Receptors in skin or brain sense decrease in blood temperature.
+\newline∗ Send neural input to brain.
+\newline– Control center in brain sends output to effector organs.
+\newline– Blood vessels in the skin constrict and skeletal muscles initiate shivering.
+\newline∗ Blood temperature should increase.
+\subsection{Positive Feedback System:}
+\newline• Body senses a large divergence from homeostasis and initiates a self amplifying change.
+\newline– Leads to change in the same direction.
+\newline∗ In contrast, negative feedback ALWAYS reverses the direction of
+a sensed change.
+\newline• Normal way of producing rapid changes.
+\newline– Examples: childbirth, blood clotting, protein digestion, and generation of nerve signals.
+\newline∗ Childbirth:
+\newline· Fetal pressure on the cervix is detected by pressure receptors.
+\newline· Nerve input is sent to the control center in the brain.
+\newline· Oxytocin (output) is release from the brain into the blood.
+\newline· Oxytocin causes effector uterine contractions which further
+push the baby against the cervix.
+\section{Basic Anatomical Terminology:}
+\newline–Specific body regions are referred to by their regional names. The head, neck, trunk, upper limbs, and lower limbs are the primary regions. Specific body components within the regions have anatomical names and matching common names. Thoracic (chest), nasal (nose), and carpal are some examples (wrist).
+\newline–In order to visualise internal structures, planes—imaginary flat surfaces—are employed to divide the body or organs. The body or an organ is divided into equal right and left sides by a midsagittal plane. The body or an organ is divided into unequal right and left sides by a parasagittal plane. The anterior and posterior halves of the body or an organ are separated by a frontal plane. The body or an organ is divided into superior and inferior sections by a transverse plane.
+\newline–Sections are horizontal cuts made through the body or its organs. Transverse, frontal, and sagittal sections are among them. They are named based on the direction of the cut.
+\newline-A pericardial cavity, which houses the heart, and two pleural cavities, each of which contains a lung, make up the three smaller cavities that make up the thoracic cavity. A superior abdominal cavity and an inferior pelvic cavity make up the abdominopelvic cavity.
+
+\newline-The abdominopelvic cavity is split into nine parts to make describing the position of the organs easier: the right hypochondriac, epigastric, left hypochondriac, right lumbar, umbilical, left lumbar, right inguinal (iliac), hypogastric (pubic), and left inguinal (iliac).
+
+\section{Basic Medical Imaging:}
+Techniques and processes used to produce images of the human body are referred to as medical imaging. They enable the imaging of interior structures for the diagnosis of aberrant anatomy and physiologic abnormalities.
+\pagebreak
+
+
+
+\end{document}
+
